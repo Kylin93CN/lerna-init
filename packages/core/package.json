@@ -1,6 +1,6 @@
 {
   "name": "@kylin-cli/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "core lib",
   "author": "lvxiang <375020612@qq.com>",
   "homepage": "",
@@ -13,10 +13,15 @@
   "files": [
     "lib"
   ],
+  "bin": {
+    "kylin-cli": "bin/index.js"
+  },
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "bb087fbb892b83a9c366049c19af200df592c94f"
 }

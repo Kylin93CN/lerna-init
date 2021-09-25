@@ -1,7 +1,7 @@
 {
   "name": "@kylin-cli/utils",
-  "version": "1.0.1",
-  "description": "> TODO: description",
+  "version": "1.0.2",
+  "description": "just utils",
   "author": "lvxiang <375020612@qq.com>",
   "homepage": "",
   "license": "ISC",
@@ -14,9 +14,11 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "bb087fbb892b83a9c366049c19af200df592c94f"
 }
